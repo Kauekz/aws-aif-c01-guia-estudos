@@ -43,5 +43,3 @@ Guia de estudos em português para a certificação **AWS Certified AI Practitio
 Sugestões de correções e melhorias são bem\-vindas por meio de *Issues* ou *Pull Requests*\.
 
 ---
-
-**Nota:** os links acima preservam exatamente a grafia Unicode decomposta &#40;NFD&#41; dos arquivos atualmente presentes na branch `main`\. Se você renomear os arquivos, atualize os caminhos nesta tabela\.
