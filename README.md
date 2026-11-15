@@ -1,64 +1,47 @@
-# AWS Certified AI Practitioner &#40;AIF\-C01&#41; — Guia de Estudos
+# AWS Certified AI Practitioner &#40;AIF\-C01&#41; \| Guia de Estudos
 
-![AWS](https://img.shields.io/badge/AWS-AI%20Practitioner-232F3E?logo=amazonaws&logoColor=white) ![Exame](https://img.shields.io/badge/Exame-AIF--C01-orange) ![Idioma](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-blue)
+![AWS](https://img.shields.io/badge/AWS-AI%20Practitioner-FF9900?logo=amazonaws&logoColor=white) ![Idioma](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-009B3A) ![Formato](https://img.shields.io/badge/Formato-Markdown-24292f?logo=markdown)
 
-Material de estudo em português para a certificação **AWS Certified AI Practitioner &#40;AIF\-C01&#41;**, reunindo resumos, conceitos essenciais e anotações técnicas organizados por domínio do exame\. O conteúdo foi compilado durante uma preparação intensiva de 10 dias\.
+Guia de estudos em português para a certificação **AWS Certified AI Practitioner &#40;AIF\-C01&#41;**, com anotações técnicas, conceitos essenciais e resumos organizados pelos cinco domínios do exame\.
 
-> **Aviso:** este é um projeto independente de estudos, não afiliado à AWS. O material é complementar e não substitui o [guia oficial do exame](https://docs.aws.amazon.com/pdfs/aws-certification/latest/aif-01/aws-certified-ai-practitioner-aif-01.pdf) nem a documentação atualizada dos serviços.
+> Material independente de estudo, não afiliado ou endossado pela AWS. Consulte sempre o guia oficial para verificar o escopo atualizado da prova.
 
-## Navegação por domínios
+## 📚 Conteúdo por domínio
 
-|Domínio|Conteúdo                                                                                                         |Peso no exame|
-|:-----:|-----------------------------------------------------------------------------------------------------------------|:-----------:|
-|1      |[Fundamentos de inteligência artificial e machine learning](./Domínio_1_-_Fundamentos_de_IA_e_ML.md)             |**20%**      |
-|2      |[Fundamentos de IA generativa](./Domínio_2_-_Fundamentos_de_IA_Generativa.md)                                    |**24%**      |
-|3      |[Aplicações de foundation models](./Domínio_3_-_Aplicações_de_Foundation_Models.md)                              |**28%**      |
-|4      |[Diretrizes para IA responsável](./Domínio_4_-_IA_Responsável.md)                                                |**14%**      |
-|5      |[Segurança, conformidade e governança para soluções de IA](./Domínio_5_-_Segurança__Conformidade_e_Governança.md)|**14%**      |
+|Domínio                                                                                                                    |Peso|Conteúdo                                                                  |
+|---------------------------------------------------------------------------------------------------------------------------|---:|--------------------------------------------------------------------------|
+|[Domínio 1 — Fundamentos de IA e ML](./Domi%CC%81nio_1_-_Fundamentos_de_IA_e_ML.md)                                        |20% |Conceitos de IA, ML, aprendizado supervisionado, métricas e ciclo de vida.|
+|[Domínio 2 — Fundamentos de IA Generativa](./Domi%CC%81nio_2_-_Fundamentos_de_IA_Generativa.md)                            |24% |Foundation Models, tokens, embeddings, RAG e Amazon Bedrock.              |
+|[Domínio 3 — Aplicações de Foundation Models](./Domi%CC%81nio_3_-_Aplicac%CC%A7o%CC%83es_de_Foundation_Models.md)          |28% |Prompt engineering, adaptação, avaliação e otimização.                    |
+|[Domínio 4 — IA Responsável](./Domi%CC%81nio_4_-_IA_Responsa%CC%81vel.md)                                                  |14% |Viés, transparência, explicabilidade e controles de segurança.            |
+|[Domínio 5 — Segurança, Conformidade e Governança](./Domi%CC%81nio_5_-_Seguranc%CC%A7a__Conformidade_e_Governanc%CC%A7a.md)|14% |IAM, proteção de dados, auditoria e governança.                           |
 
-### O que revisar em cada domínio
+## ☁️ Serviços e temas abordados
 
-**1\. Fundamentos de IA e ML:** diferenças entre IA, ML e deep learning; tipos de aprendizado; treinamento, inferência e casos de uso\.
+- **IA generativa:** Amazon Bedrock, foundation models, RAG, embeddings e engenharia de prompts\.
+- **Machine learning:** Amazon SageMaker AI, preparação de dados, treinamento, avaliação e monitoramento\.
+- **Serviços de IA:** Amazon Comprehend, Rekognition, Textract, Polly e Transcribe\.
+- **Segurança e governança:** AWS IAM, AWS KMS, AWS CloudTrail, Amazon Macie, AWS Artifact e AWS Audit Manager\.
 
-**2\. IA generativa:** foundation models, tokens, embeddings, modelos multimodais, casos de uso e limitações\.
+## 🎯 Como estudar com este repositório
 
-**3\. Aplicações de foundation models:** Amazon Bedrock, engenharia de prompts, RAG, customização, avaliação de modelos e custos\.
+1. Comece pelo Domínio 1 para consolidar os fundamentos de IA e ML\.
+2. Avance para IA generativa e aplicações de foundation models &#40;Domínios 2 e 3&#41;\.
+3. Revise os princípios de IA responsável e segurança &#40;Domínios 4 e 5&#41;\.
+4. Faça simulados e retorne aos tópicos com maior índice de erro\.
+5. Consulte a documentação oficial para aprofundar os conceitos\.
 
-**4\. IA responsável:** viés, justiça, transparência, explicabilidade, privacidade, alucinações e guardrails\.
+## 🔗 Referências oficiais
 
-**5\. Segurança e governança:** modelo de responsabilidade compartilhada, IAM, criptografia, auditoria, conformidade e proteção de dados\.
-
-## Serviços AWS abordados
-
-|Área                    |Serviços e recursos                                                             |
-|------------------------|--------------------------------------------------------------------------------|
-|IA generativa           |Amazon Bedrock, Amazon Q                                                        |
-|Machine learning        |Amazon SageMaker AI, SageMaker JumpStart, SageMaker Clarify                     |
-|Serviços de IA          |Amazon Comprehend, Rekognition, Textract, Polly, Transcribe e Personalize       |
-|Segurança e conformidade|AWS IAM, AWS KMS, Amazon Macie, AWS CloudTrail, AWS Artifact e AWS Audit Manager|
-
-> Os nomes, recursos e o escopo dos serviços podem mudar. Consulte sempre a documentação oficial da AWS.
-
-## Como usar este guia
-
-1. Leia o [guia oficial do exame](https://docs.aws.amazon.com/pdfs/aws-certification/latest/aif-01/aws-certified-ai-practitioner-aif-01.pdf) para conferir os objetivos e serviços cobrados\.
-2. Estude os cinco domínios na ordem que fizer mais sentido para seu conhecimento prévio\.
-3. Compare os serviços e pratique a identificação de cenários de uso\.
-4. Faça questões de revisão e retorne aos assuntos em que tiver maior dificuldade\.
-5. Revise especialmente os conceitos e diferenças entre serviços, não apenas definições isoladas\.
-
-## Referências oficiais
-
-- [AWS Certified AI Practitioner — página da certificação](https://aws.amazon.com/certification/certified-ai-practitioner/)
-- [Guia oficial do exame AIF\-C01 &#40;PDF&#41;](https://docs.aws.amazon.com/pdfs/aws-certification/latest/aif-01/aws-certified-ai-practitioner-aif-01.pdf)
+- [AWS Certified AI Practitioner](https://aws.amazon.com/certification/certified-ai-practitioner/)
+- [Guia oficial do exame AIF\-C01](https://docs.aws.amazon.com/pdfs/aws-certification/latest/ai-practitioner-01/ai-practitioner-01.pdf)
 - [Documentação do Amazon Bedrock](https://docs.aws.amazon.com/bedrock/)
 - [Documentação do Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/)
-- [AWS Skill Builder](https://skillbuilder.aws/)
 
-## Contribuições
+## 🤝 Contribuições
 
-Sugestões de correção, atualização de serviços e melhorias são bem\-vindas por meio de *Issues* e *Pull Requests*\.
+Sugestões de correções e melhorias são bem\-vindas por meio de *Issues* ou *Pull Requests*\.
 
-## Licença e uso
+---
 
-Conteúdo disponibilizado para consulta e revisão\. Consulte as condições aplicáveis antes de redistribuir ou reutilizar o material; este repositório não declara uma licença de código aberto\.
+**Nota:** os links acima preservam exatamente a grafia Unicode decomposta &#40;NFD&#41; dos arquivos atualmente presentes na branch `main`\. Se você renomear os arquivos, atualize os caminhos nesta tabela\.
